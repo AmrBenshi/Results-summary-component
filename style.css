@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.result-container {
+  padding: 1em 0.75em;
+  color: white;
+  text-align: center;
+  background: linear-gradient(#5f3ffc, #312cea);
+  border-radius: 0 0 35px 35px;
+  -webkit-border-radius: 0 0 35px 35px;
+  -moz-border-radius: 0 0 35px 35px;
+  -ms-border-radius: 0 0 35px 35px;
+  -o-border-radius: 0 0 35px 35px;
+}
+.result-container .result span:first-child {
+  font-size: 3em;
+  font-weight: 900;
+}
+.result-container .result span:nth-child(3) {
+  font-weight: 600;
+}
+.result-container .result {
+  display: inline-block;
+  padding: 25px 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: linear-gradient(#4a23ca, #4734f0);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.gray-color {
+  color: #c3c1ff;
+}
+.summary {
+  padding: 0 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary h2 {
+  font-size: 1.2em;
+  align-self: start;
+}
+.summary .subject {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 0.5em 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.summary .subject img {
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+.subject1 {
+  background-color: #fff6f5;
+  color: #f37f88;
+}
+.subject2 {
+  background-color: #fffbf2;
+  color: #eec15c;
+}
+.subject3 {
+  background-color: #f2fbfa;
+  color: #30ab8c;
+}
+.subject4 {
+  background-color: #f3f3fd;
+  color: #030e77;
+}
+button {
+  width: 95%;
+  border: none;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 20px;
+  margin: 1em;
+  padding: 1em;
+  background-color: #303b59;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  align-self: flex-end;
+}
+.attribution a {
+  color: #3e52a3;
+}
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    height: 85%;
+    box-shadow: 4px 6px 20px #878787;
+    border-radius: 35px;
+  }
+  .bg {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .summary {
+    width: 50%;
+  }
+  .result-container {
+    width: 50%;
+    font-size: 1.15em;
+    border-radius: 35px;
+  }
+}
