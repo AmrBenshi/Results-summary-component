@@ -109,7 +109,8 @@ button {
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
-    height: 85%;
+    height: 420px;
+    width: 740px;
     box-shadow: 4px 6px 20px #878787;
     border-radius: 35px;
   }
